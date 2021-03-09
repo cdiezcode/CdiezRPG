@@ -8,6 +8,7 @@ namespace ConsoleUI
         internal static void StartGame()
         {
             Console.WriteLine("Welcome to CdiezRPG!");
+            Console.WriteLine($"Current date is: {DateTime.Now}");
             Console.WriteLine("1. New Game\n2. Load Game\n3. Exit");
             Console.Write("Choose what do you want to do(enter the number): ");
             int answer = GetUserInput();
